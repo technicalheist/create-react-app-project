@@ -1,6 +1,6 @@
 {
   "name": "create-react-app-project",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "private": false,
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
@@ -24,7 +24,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "postinstall": "node ./pos_install.js"
+    "postinstall": "node ./post_install.js"
   },
   "eslintConfig": {
     "extends": [
