@@ -1,0 +1,1 @@
+console.log('For help contact us at contact@technicalheist.com');
