@@ -24,5 +24,8 @@
   "bugs": {
     "url": "https://github.com/technicalheist/create-react-app-project/issues"
   },
-  "homepage": "https://github.com/technicalheist/create-react-app-project#readme"
+  "homepage": "https://github.com/technicalheist/create-react-app-project#readme",
+  "dependencies": {
+    "gently-copy": "^3.2.0"
+  }
 }
