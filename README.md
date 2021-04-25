@@ -11,6 +11,9 @@ This project contains pre defined functions for quick development.
 - Easy File Upload 
 - API Integration Example
 
+# INSTALLATION 
+### Use NPM to install this app quickly : npm i create-react-app-project
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
