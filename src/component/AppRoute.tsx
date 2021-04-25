@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import { Route, Switch } from 'react-router-dom';
 import Home from './Home';
-export default class AppRoute extends Component<any,any> {
+export default class AppRoute extends Component{
 
     beforeLoginRoutes(){
         return (

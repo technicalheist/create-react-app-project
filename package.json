@@ -1,16 +1,52 @@
 {
   "name": "create-react-app-project",
-  "version": "1.0.1",
-  "description": "Create React App Project with prebuild Features",
-  "main": "index.js",
-  "directories": {
-    "lib": "lib"
+  "version": "1.0.2",
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^11.1.0",
+    "@testing-library/user-event": "^12.1.10",
+    "@types/jest": "^26.0.15",
+    "@types/node": "^12.0.0",
+    "@types/react": "^17.0.0",
+    "@types/react-dom": "^17.0.0",
+    "gently-copy": "^3.2.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-helmet": "^6.1.0",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "4.0.3",
+    "typescript": "^4.1.2",
+    "web-vitals": "^1.0.1"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "postinstall": "node ./post_install.js && npm update"
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
   },
-  "repository": {
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@types/react-router-dom": "^5.1.7"
+  },
+   "repository": {
     "type": "git",
     "url": "git+https://github.com/technicalheist/create-react-app-project.git"
   },
@@ -23,9 +59,5 @@
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/technicalheist/create-react-app-project/issues"
-  },
-  "homepage": "https://github.com/technicalheist/create-react-app-project#readme",
-  "dependencies": {
-    "gently-copy": "^3.2.0"
   }
 }
