@@ -1,3 +1,16 @@
+# Create React App Project
+This project contains pre defined functions for quick development. 
+- Routing
+- Template Structure for Header, Footer and Loading 
+- Default Components 
+- Routing Functions 
+
+# Upcoming Features 
+- Authentication with Social Media and Normal 
+- Form Submission and Handeling Example 
+- Easy File Upload 
+- API Integration Example
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
