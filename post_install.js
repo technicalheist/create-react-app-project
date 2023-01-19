@@ -1,6 +1,6 @@
 var fs = require('fs');
 const { spawn } = require("child_process");
-var installCopy = spawn("npm", ["i", "gently-copy"]);
+var installCopy = spawn("npm", ["i", "gently-copy"], {shell: true});
 installCopy.on('exit', (code)=>{
     var gentlyCopy = require('gently-copy')
     var filesToCopy = ['public', 'src', '.gitignore', 'LICENSE', 'package.json', 'README.md', 'tsconfig.json', 'yarn.lock'];
